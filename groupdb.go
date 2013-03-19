@@ -19,7 +19,7 @@ type Group struct{
 	End int64
 	Offset int64
 	Count int64
-	Posting bool
+	Posting string
 }
 
 type GroupDB struct{
